@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,3 +19,4 @@ Route::get('/', function () {
 });
 Route::get('/top/', 'TopController@index');
 Route::get('/top/{menu}', 'TopController@menu');
+Route::get('/items/', 'ItemsController@index');
